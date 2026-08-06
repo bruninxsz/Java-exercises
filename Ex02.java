@@ -8,7 +8,7 @@ public class Ex02 {
         int idade;
 
         void apresentar() {
-            System.out.println("Olá, meu nome é " + nome + ", tenho " + idade + " anos e estudo " + curso);
+            System.out.println("Olá, meu nome é " + nome + ", tenho " + idade + " anos e estudo " + curso + "!");
         }
     }
 
@@ -19,7 +19,9 @@ public class Ex02 {
           Aluno Bruno = new Aluno();
           Bruno.nome = "Bruno Henrique da Silva Pereira";
           Bruno.curso = "Análise e Desenvolvimento de Sistemas";
-          
+          Bruno.idade = 18;
+
+          Bruno.apresentar();
         }
     }
 }

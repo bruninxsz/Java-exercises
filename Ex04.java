@@ -10,6 +10,6 @@ public class Ex04 {
       this.ano = ano;
     }
 
-    void
+    void      
   }
 }

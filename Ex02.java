@@ -22,6 +22,14 @@ public class Ex02 {
           Bruno.idade = 18;
 
           Bruno.apresentar();
+
+          Aluno Clara = new Aluno();
+          Clara.nome = "Clara da Silva";
+          Clara.curso = "Análise e Desenvolvimento de Sistemas";
+          Clara.idade = 17;
+
+          Clara.apresentar();
+        }
         }
     }
-}
+
